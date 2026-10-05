@@ -1,0 +1,6 @@
+@import "tailwindcss";
+:root { --paper:#F6F7F9; --ink:#14181F; --muted:#5B6472; --rule:#D5DAE1; --accent:#0F5E6B; --warn:#A4361F; }
+body { background:var(--paper); color:var(--ink); font-family: Georgia, "Iowan Old Style", "Times New Roman", serif; line-height:1.65; }
+.ui { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+@media (prefers-reduced-motion: reduce) { * { animation:none !important; transition:none !important; } }
